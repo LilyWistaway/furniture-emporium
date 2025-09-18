@@ -1,0 +1,42 @@
+.card {
+  font-size: large;
+  font-weight: lighter;
+  font-style: italic;
+  border-style: ridge;
+  border-width: 2px solid black;
+  border-color: black;
+  padding: 12pt;
+  margin: 20pt;
+  color: blueviolet;
+  background-color: blanchedalmond;
+  display: grid;
+  place-items: center;
+}
+
+h2 {
+  color: black;
+  font-weight: bold;
+  font-style: normal;
+  padding: 2 pt;
+  border-color: black;
+  border-style: dotted;
+  text-align: center;
+}
+
+button {
+  border-style: inset;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+  width: 100pt;
+}
+
+.price {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+button:hover {
+  background-color: green;
+  cursor: grab;
+}
